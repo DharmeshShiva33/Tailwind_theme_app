@@ -1,0 +1,51 @@
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+
+  /* --Primary Color-- */
+  --color-primary: #2563eb;
+  --color-primary-50: #f2f8ff;
+  --color-primary-100: #e8f2ff;
+  --color-primary-200: #bedbff;
+  --color-primary-300: #8ec5ff;
+  --color-primary-400: #51a2ff;
+  --color-primary-500: #2563eb; /* Bright, vivid blue */
+  --color-primary-600: #155dfc;
+  --color-primary-700: #1447e6;
+  --color-primary-800: #193cb8;
+  --color-primary-900: #1c398e;
+  --color-primary-950: #162456;
+
+  /* --Secondary Color-- */
+
+  --color-secondary: #6b7280; /* Neutral Gray - Base */
+  --color-secondary-50: #f9fafb;
+  --color-secondary-100: #f3f4f6;
+  --color-secondary-200: #e5e7eb;
+  --color-secondary-300: #d1d5db;
+  --color-secondary-400: #9ca3af;
+  --color-secondary-500: #6b7280; /* Base Gray */
+  --color-secondary-600: #4b5563;
+  --color-secondary-700: #374151;
+  --color-secondary-800: #1f2937;
+  --color-secondary-900: #111827;
+  --color-secondary-950: #0a0f1c;
+
+  --color-tertiary: #000069;
+  --color-danger: #dc2626;
+  --color-success: #16a34a;
+  --color-info: #2563eb;
+  --color-warning: #f59e0b;
+
+  /* ----Font Family---- */
+  /* --font-primary: "Lato", sans-serif; */
+
+  /* ----Font Size---- */
+  --font-size-base: 14px;
+  --font-size-h1: 2.5rem; /* 40px */
+  --font-size-h2: 2rem; /* 32px */
+  --font-size-h3: 1.75rem; /* 28px */
+  --font-size-h4: 1.5rem; /* 24px */
+  --font-size-h5: 1.25rem; /* 20px */
+}

@@ -1,0 +1,60 @@
+/* Define button styles theme variables */
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-1 rounded-md text-sm font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply text-white;
+  background-color: var(--color-primary);
+}
+
+.btn-tertiary {
+  @apply text-white;
+  background-color: var(--color-tertiary);
+}
+
+.btn-secondary {
+  @apply text-white;
+  background-color: var(--color-secondary);
+}
+
+.btn-danger {
+  @apply text-white;
+  background-color: var(--color-danger);
+}
+
+.btn-success {
+  @apply text-white;
+  background-color: var(--color-success);
+}
+
+.btn-info {
+  @apply text-white;
+  background-color: var(--color-info);
+}
+
+.btn-warning {
+  @apply text-white;
+  background-color: var(--color-warning);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Define h1 to h5 styles theme variables */
+h1 {
+  font-size: var(--font-size-h1);
+}
+h2 {
+  font-size: var(--font-size-h2);
+}
+h3 {
+  font-size: var(--font-size-h3);
+}
+h4 {
+  font-size: var(--font-size-h4);
+}
+h5 {
+  font-size: var(--font-size-h5);
+}
