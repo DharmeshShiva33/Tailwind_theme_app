@@ -1,6 +1,6 @@
 /* Define button styles theme variables */
 .btn {
-  @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition duration-150 ease-in-out;
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition duration-150 ease-in-out cursor-pointer;
 }
 
 .btn-primary {
@@ -12,7 +12,7 @@
 }
 
 .btn-outline {
-  @apply border border-gray-300 text-gray-800 hover:bg-gray-100;
+  @apply border border-primary-950 text-primary hover:bg-gray-100;
 }
 
 .btn-disabled {
