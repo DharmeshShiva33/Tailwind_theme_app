@@ -1,11 +1,22 @@
 /* Define button styles theme variables */
 .btn {
-  @apply inline-flex items-center justify-center px-4 py-1 rounded-md text-sm font-medium transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition duration-150 ease-in-out;
 }
 
 .btn-primary {
-  @apply text-white;
-  background-color: var(--color-primary);
+  @apply bg-primary-950 text-white hover:bg-primary-900 focus:ring-2 focus:ring-primary-800;
+}
+
+.btn-secondary {
+  @apply bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-2 focus:ring-secondary-400;
+}
+
+.btn-outline {
+  @apply border border-gray-300 text-gray-800 hover:bg-gray-100;
+}
+
+.btn-disabled {
+  @apply opacity-50 cursor-not-allowed;
 }
 
 .btn-tertiary {
@@ -57,4 +68,13 @@ h4 {
 }
 h5 {
   font-size: var(--font-size-h5);
+}
+
+/* Reusable form input style */
+.input-base {
+  @apply w-full p-2 border border-gray-300 rounded-md;
+}
+
+.checkbox-base {
+  @apply accent-primary-600 mr-2 mt-1;
 }
